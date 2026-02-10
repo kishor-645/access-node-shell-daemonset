@@ -8,7 +8,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: node-shell
-  namespace: kube-system
+  namespace: default
   labels:
     app: node-shell
 spec:
